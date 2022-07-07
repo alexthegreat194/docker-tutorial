@@ -1,7 +1,7 @@
 FROM node:latest
 
 # Specify the directory that you are building 
-WORKDIR ./
+WORKDIR .
 
 # Copy the package.json file to the root of the image and install the dependencies
 COPY package.json .
